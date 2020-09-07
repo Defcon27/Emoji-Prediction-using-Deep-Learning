@@ -1,5 +1,5 @@
+import Tweepy_API.config as config
 import tweepy
-import config
 
 
 # Authentication module

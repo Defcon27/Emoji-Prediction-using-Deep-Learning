@@ -1,5 +1,5 @@
+import Tweepy_API.OAuth as OAuth
 import tweepy
-import OAuth
 import pandas as pd
 import numpy as np
 
@@ -11,19 +11,25 @@ class TwitterClient():
         self.auth = OAuth.TwitterAuthenticator().authenticateTwitter()
         self.twitter_client = tweepy.API(self.auth)
         self.twitter_user = twitter_user
+        self.client_tweets = []
 
     def getTweets(self, num_tweets):
-        tweets = []
         for tweet in tweepy.Cursor(self.twitter_client.user_timeline, id=self.twitter_user).items(num_tweets):
-            tweets.append(tweet)
-        return tweets
+            self.client_tweets.append(tweet)
 
-    # def get_frds(self, num_frds):
-    #     frds = []
-    #     for tweet in Cursor(self.twitter_client.friends, id=self.twitter_user).items(num_frds):
-    #         frds.append(tweet)
-    #     return frds
+        return self
 
+    def getTweetDataFrame(self):
+        df = pd.DataFrame(
+            data=[tweet.id for tweet in self.client_tweets], columns=["Id"])
+        df["Date"] = np.array(
+            [tweet.created_at for tweet in self.client_tweets])
+        df["Tweet"] = np.array([tweet.text for tweet in self.client_tweets])
+        df["Likes"] = np.array(
+            [tweet.favorite_count for tweet in self.client_tweets])
+        df["Retweets"] = np.array(
+            [tweet.retweet_count for tweet in self.client_tweets])
+        df["Geo"] = np.array(
+            [tweet.coordinates for tweet in self.client_tweets])
 
-tweets = TwitterClient("therock").getTweets(30)
-print(len(tweets))
+        return df

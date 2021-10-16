@@ -3,7 +3,9 @@
 <h1> Emoji Prediction from Twitter Data<br>
 using Deep Learning Approach
 </h1>
-  
+
+
+[![PWC](https://img.shields.io/badge/Papers%20With%20Code-Multimodal%20Emoji%20Prediction-21b3b6.svg?logo=data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4gPHN0eWxlIHR5cGU9InRleHQvY3NzIj4gLnN0MHtmaWxsOiMyMUYwRjM7fSA8L3N0eWxlPiA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNODgsMTI4aDQ4djI1Nkg4OFYxMjh6IE0yMzIsMTI4aDQ4djI1NmgtNDhWMTI4eiBNMTYwLDE0NGg0OHYyMjRoLTQ4VjE0NHogTTMwNCwxNDRoNDh2MjI0aC00OFYxNDR6IE0zNzYsMTI4IGg0OHYyNTZoLTQ4VjEyOHoiLz4gPHBhdGggY2xhc3M9InN0MCIgZD0iTTEwNCwxMDRWNTZIMTZ2NDAwaDg4di00OEg2NFYxMDRIMTA0eiBNNDA4LDU2djQ4aDQwdjMwNGgtNDB2NDhoODhWNTZINDA4eiIvPjwvc3ZnPg==)](https://paperswithcode.com/paper/emoji-prediction-from-twitter-data-using-deep)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Defcon27/Emoji-Prediction-using-Deep-Learning?label=Last%20commit&color=green&logo=git&logoColor=white&style=flat)
 ![GitHub stars](https://img.shields.io/github/stars/Defcon27/Emoji-Prediction-using-Deep-Learning?label=Stars&logo=github&style=flat)
 ![Github forks](https://img.shields.io/github/forks/Defcon27/Emoji-Prediction-using-Deep-Learning?label=Forks&logo=github&style=flat)

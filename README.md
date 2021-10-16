@@ -1,7 +1,9 @@
 <div align="center">
 
-# Emoji Prediction from Twitter Data using Deep Learning Approach
-
+<h1> Emoji Prediction from Twitter Data<br>
+using Deep Learning Approach
+</h1>
+  
 ![GitHub last commit](https://img.shields.io/github/last-commit/Defcon27/Emoji-Prediction-using-Deep-Learning?label=Last%20commit&color=green&logo=git&logoColor=white&style=flat)
 ![GitHub stars](https://img.shields.io/github/stars/Defcon27/Emoji-Prediction-using-Deep-Learning?label=Stars&logo=github&style=flat)
 ![Github forks](https://img.shields.io/github/forks/Defcon27/Emoji-Prediction-using-Deep-Learning?label=Forks&logo=github&style=flat)
@@ -40,7 +42,7 @@ In this paper, the results discussed above we can conclude that Support Vector C
 <p><br></p>
 
 
-## References
+## 📚References
 [1] Barbieri Francesco et al., "Semeva12018 task 2: Multilingual emoji prediction", Proceedings of The 12th International Workshop on Semantic Evaluation, 2018.
 
 [2] Barbieri Francesco, Luis Espinosa-Anke and Horacio Saggion, "Re-vealing patterns of Twitter emoji usage in Barcelona and Madrid", Frontiers in Artificial Intelligence and Applications. 2016; (Artificial Intelligence Research and Development), vol. 288, pp. 239-44, 2016.
@@ -51,6 +53,6 @@ In this paper, the results discussed above we can conclude that Support Vector C
 <p><br></p>
 
 
-### License
+### 📝License
 Copyright © 2021 Hemanth Kollipara, Pavithra Kollipara
 

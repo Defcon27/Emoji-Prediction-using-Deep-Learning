@@ -50,8 +50,11 @@ In this paper, the results discussed above we can conclude that Support Vector C
 
 
 ## 📝Citation
-V. N. Durga Pavithra Kollipara, V. N. Hemanth Kollipara and M. D. Prakash, "Emoji Prediction from Twitter Data using Deep Learning Approach," 2021 Asian Conference on Innovation in Technology (ASIANCON), 2021, pp. 1-6, doi: 10.1109/ASIANCON51346.2021.9544680.
-
+If you found this code helpful please consider citing,
+```
+V. N. Durga Pavithra Kollipara, V. N. Hemanth Kollipara and M. D. Prakash, "Emoji Prediction from Twitter Data using 
+Deep Learning Approach," 2021 Asian Conference >on Innovation in Technology (ASIANCON), 2021, pp. 1-6, doi: 10.1109/ASIANCON51346.2021.9544680.
+```
 
 ## 📚References
 [1] Barbieri Francesco et al., "Semeva12018 task 2: Multilingual emoji prediction", Proceedings of The 12th International Workshop on Semantic Evaluation, 2018.
